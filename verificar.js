@@ -1,6 +1,7 @@
 // --- CONFIGURACIÓN ---
 // Reemplaza la variable que tengas por esta URL
-const VERIFY_API_URL = 'https://8grx9hkg84.execute-api.us-east-1.amazonaws.com/v1/verify';
+const VERIFY_API_URL = 'https://helxe5ypw6dgxfwxhynw7xzaq40xdjzy.lambda-url.us-east-1.on.aws/';
+
 
 
 
