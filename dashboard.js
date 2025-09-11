@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // 2. Definir la URL de nuestra API
-    const apiUrl = 'https://8grx9hkg84.execute-api.us-east-1.amazonaws.com/dashboard';
+    const apiUrl = 'https://8grx9hkg84.execute-api.us-east-1.amazonaws.com/v1/dashboard';
 
     // 3. Llamar a la API usando fetch
     fetch(apiUrl, {
