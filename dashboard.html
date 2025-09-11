@@ -1,18 +1,29 @@
-<!DOCTYPE html>
-<html lang="es">
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
 
-<head>
-    <meta charset="UTF-8">
-    <title>ColPay - Bienvenido</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
+    <div class="container mx-auto p-8">
 
-<body class="bg-gray-100 flex items-center justify-center h-screen">
-    <div class="text-center">
-        <h1 class="text-4xl font-bold text-green-600">¡Autenticación Exitosa!</h1>
-        <p class="text-xl text-gray-700 mt-4">Bienvenido a tu panel de ColPay.</p>
-        <p class="mt-8">Aquí es donde construiremos la gestión de tus pagos.</p>
+        <!-- Saludo al Usuario -->
+        <div class="bg-white p-6 rounded-lg shadow-lg mb-8">
+            <h1 id="user-greeting" class="text-2xl font-bold text-gray-800">Cargando información del usuario...</h1>
+            <p id="user-email" class="text-gray-600"></p>
+        </div>
+
+        <!-- Sección de Estudiantes -->
+        <div>
+            <h2 class="text-xl font-semibold text-gray-700 mb-4">Estudiantes Asociados</h2>
+
+            <!-- Contenedor para las tarjetas de estudiantes -->
+            <div id="student-cards-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Las tarjetas de los estudiantes se insertarán aquí dinámicamente con JavaScript -->
+                <div id="loading-spinner" class="col-span-full text-center p-4">
+                    <p class="text-gray-500">Buscando estudiantes...</p>
+                    <!-- Aquí podríamos poner un spinner animado más adelante -->
+                </div>
+            </div>
+        </div>
+
     </div>
-</body>
 
-</html> 
+    <!-- Vinculamos nuestro archivo JavaScript -->
+    <script src="dashboard.js"></script>
+</body>
