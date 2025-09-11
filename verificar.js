@@ -22,10 +22,11 @@ window.addEventListener('load', async () => {
 
     try {
         // 2. Llamar a la API de verificación
-        const response = await fetch(VERIFY_API_URL, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ token: token })
+        const urlConToken = new URL(VERIFY_API_URL);
+        urlConToken.searchParams.append('token', token);
+
+        const response = await fetch(urlConToken, {
+            method: 'GET'
         });
 
         const data = await response.json();
