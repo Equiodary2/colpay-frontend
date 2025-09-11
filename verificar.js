@@ -1,5 +1,8 @@
 // --- CONFIGURACIÓN ---
-const VERIFY_API_URL = 'https://wpxpo42g13.execute-api.us-east-1.amazonaws.com/default/VerifyMagicToken';
+// Reemplaza la variable que tengas por esta URL
+const VERIFY_API_URL = 'https://8grx9hkg84.execute-api.us-east-1.amazonaws.com/v1/verify';
+
+
 
 // --- ELEMENTOS DEL DOM ---
 const messageTitle = document.getElementById('message-title');

@@ -1,6 +1,7 @@
 // --- CONFIGURACIÓN ---
 // Esta es la URL de nuestra primera función Lambda
-const MAGIC_LINK_API_URL = 'https://yo2cm5zwp9.execute-api.us-east-1.amazonaws.com/default/MagicLink_Authentication';
+const MAGIC_LINK_API_URL = 'https://8grx9hkg84.execute-api.us-east-1.amazonaws.com/v1/login';
+;
 
 // --- ELEMENTOS DEL DOM ---
 const loginForm = document.getElementById('login-form');
