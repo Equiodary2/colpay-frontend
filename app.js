@@ -1,6 +1,6 @@
 // --- CONFIGURACIÓN ---
 // Esta es la URL de nuestra primera función Lambda
-const MAGIC_LINK_API_URL = 'https://zk9eltwoi6.execute-api.us-east-1.amazonaws.com/default/MagicLink_Authentication';
+const MAGIC_LINK_API_URL = 'https://uelqmoxbtdbf4piortfbddn32e0qodum.lambda-url.us-east-1.on.aws/';
 
 ;
 
